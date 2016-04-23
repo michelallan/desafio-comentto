@@ -1,0 +1,30 @@
+@media only screen and (max-width: 1999px){ 
+  html, body {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 991px){ 
+  html, body {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 767px){ 
+  html, body {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 479px){ 
+  html, body {
+    font-size: 12px;
+  }
+}
+
+//fix for iPhone
+@media screen and (max-device-width: 480px){
+  body{
+    -webkit-text-size-adjust: none;
+  }
+}

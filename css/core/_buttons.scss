@@ -1,0 +1,11 @@
+.btn {
+	display: inline-block;
+	@include button-bg($warning);
+	cursor: pointer;
+	padding: 0 12px;
+	height: 3em;
+	line-height: 3em;
+	font-size: 1.25em;
+	text-transform: uppercase;
+	font-weight: bold;
+}
